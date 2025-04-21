@@ -73,6 +73,15 @@ input {
         width: auto;
     }
 
+    .logo-wrapper h1 {
+        color: var(--theme-color-black);
+        font-size: 1.5rem;
+        font-weight: normal;
+        letter-spacing: 2px;
+        padding: 0 0 1rem;
+        text-align: center;
+    }
+
 .hero-banner .hero-image {
     background-image: url(https://assets.codepen.io/6060109/athlete-girl.png);
     background-size: cover;
