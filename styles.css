@@ -122,8 +122,7 @@ input {
 
     .text-info p {
         color: var(--theme-color-black);
-        font-size: 40px;
-        line-height: 24px;
+        font-size: 1.3rem;
     }
 
     .text-info .email-signup {
@@ -213,11 +212,6 @@ input {
             font-size: 4.5rem;
         }
 
-        .text-info p {
-            font-size: 20px;
-            line-height: 30px;
-            font-style: italic;
-        }
 
         .text-info input {
             font-size: 16px;
