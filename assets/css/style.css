@@ -1103,8 +1103,34 @@ section.section-img {
     display: block;
     }
 }
-
-
+@media screen and (max-width: 767px) {
+    .navbar .navbar-right {
+    display: none !important;
+}
+.navbar-center h2 {
+    font-size: 26px;
+}
+.logo-wrapper {
+    padding: 2px 5px !important;
+}
+.section-padding {
+    padding: 40px 0 !important;
+}
+.about .phone {
+    margin-left: 0px !important;
+}
+.section-title {
+    font-size: 28px !important;
+}
+.note.vert-move {
+    display: none;
+}
+}
+@media screen and (max-width: 400px) {
+.navbar-center h2 {
+    font-size: 20px !important;
+}
+}
 /* ======= Navbar style ======= */
 .navbar {
     position: relative;
@@ -1410,25 +1436,28 @@ section.section-img {
     }
 }
 @media screen and (max-width: 991px) {
-    .navbar {
-        padding-left: 0px;
-        padding-right: 0px;
-        background: var(--white);
-        padding-top: 0px;
-        padding-bottom: 0px;
-        height: 100px;
-        border: none;
-    }
+   .navbar {
+    padding-left: 10px;
+    padding-right: 20px;
+    background: var(--white);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 100px;
+    border: none;
+}
+.marketplace-icons img {
+    margin-top: 15px;
+}
     .nav-scroll {
         background: var(--white);
         height: 100px;
     }
     .logo-wrapper {
         float: left;
-        padding: 22px 15px;
+        padding: 2px 15px;
     }
     .nav-scroll .logo-wrapper {
-        padding: 17px 15px;
+        padding: 5px 15px;
         background-color: transparent;
     }
     .nav-scroll .logo-img {
@@ -1535,9 +1564,7 @@ section.section-img {
     .navbar .dropdown-menu .dropdown-item i {
         color: var(--dark-gray);
     }
-    .navbar .navbar-right {
-        display: none;
-    }
+    
 }
 
 
@@ -2379,7 +2406,11 @@ section.section-img {
     transform-style: preserve-3d;
     border-radius: 20px;
     transform: translateZ(100px);
-    padding: 60px 30px;
+    padding: 30px 30px;
+}
+.access-img{
+    margin-top: -50px;
+    filter: grayscale(100%);
 }
 .services2 .item.active {
     background: var(--base-color);
@@ -2736,7 +2767,7 @@ section.section-img {
 }
 /* front */
 .adoption .item .front-header {
-    background-color: transparent;
+    background-color: #00000036;
     position: absolute;
     top: 0;
     bottom: 20px;
@@ -2760,7 +2791,7 @@ section.section-img {
 }
 .adoption .item .front-header .front-title {
     color: #fff;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 1.25em;
     margin: 0;
@@ -4631,10 +4662,10 @@ color: var(--white);
     .footer .bottom .links ul li {
         margin: 5px 10px;
     }
-    .footer .bottom .links,
+    /* .footer .bottom .links,
     .footer .bottom p {
         text-align: left !important;
-    }
+    } */
 }
 
 
