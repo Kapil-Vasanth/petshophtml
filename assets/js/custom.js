@@ -243,7 +243,7 @@ $(function () {
         loop: true,
         margin: 20,
         mouseDrag: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 5000,
         smartSpeed: 1000,
         dots: false,
