@@ -247,7 +247,7 @@ $(function () {
         autoplayTimeout: 5000,
         smartSpeed: 1000,
         dots: false,
-        nav: false,
+        nav: true,
         navText: ["<span class='fa-light fa-angle-left'></span>", "<span class='lnr fa-light fa-angle-right'></span>"],
         autoplayHoverPause: true,
         responsiveClass: true,
